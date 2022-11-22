@@ -1,0 +1,3 @@
+# General info about this material
+
+- 202211: When students were installing Python/Flask, without explanation, they got some commands to do on the CLI (Command Line Interface), which led to a lot of students not being able to do so themselves, also involving a lot of teacher effort to get it right. A few weeks later students got an instruction about using git (done by a student). For that also the CLI was used, but was (still) new to most of them. When doing Python, most students only knew how to edit/run programs from VS Code. They did not really know about the files or how to run Python from the CLI (or even that it could be done from CLI).
