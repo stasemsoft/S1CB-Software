@@ -2,11 +2,11 @@
 
 
 ## Install Python 
-[Install Python](installPython.md)
+[Install Python](installPython)
 
 ## Install Visual Studio Code
-[installVSCode](installVSCode.md)
+[installVSCode](installVSCode)
 
 ## Install FHICT specifics
-[installFHICTSpecifics](installFHICTSpecifics.md)
+[installFHICTSpecifics](installFHICTSpecifics)
 
