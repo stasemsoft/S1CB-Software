@@ -3,9 +3,10 @@
 
 ## Introduction
 
+This is a collection of info pages about 'doing stuff' using the command line. 
+
 ## Get started with the CLI
 
-- [Why use the CLI?](cli/cliWhy)
 - [First Steps with the CLI](cli/cliFirstSteps)
 
 
