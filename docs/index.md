@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This is a collection of info pages about 'doing stuff' using the command line. 
+- This is a collection of info pages about 'doing stuff' using the command line. 
 
 ## Get started with the CLI
 
