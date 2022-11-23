@@ -14,7 +14,7 @@ Some people nowadays say `Folder` instead of `Directory`, that is mainly just an
 The answer to `pwd` will be a `Path`, like:
 
 ```
-/Users/bill
+/Users/frens
 ```
 
 ## List of files and dirs
@@ -40,9 +40,28 @@ Now we can change the working directory with Change Dir: let's go into the dir w
 ```
 cd MyVeryOwnDir 
 ```
-(once you type the first characters of the dir name the CLI will often be able to complete it for you: hit the 'TAB' key. 
+once you type the first characters of the dir name the CLI will often be able to complete it for you: hit the 'TAB' key. 
 
+You may want to know where we are now: remember `pwd`? 
 
+## Creating a file 
+
+```
+touch someSillyFilename.py
+```
+creates an empty file, which you of course can check using `ls`. Opening the file with the 'dedicated' program for it: 
+
+```
+open someSillyFilename.py
+``` 
+
+To open Visual Studio Code to edit this file you may need to do some 
+[work](https://techstacker.com/how-to-open-vscode-terminal-command-line/)
+, but afterward you can:
+
+```
+code someSillyFilename.py
+``` 
 
 
 ## Parameters
