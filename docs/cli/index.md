@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[Why still use CLI](whyCli)
+[Why still use CLI](cliWhy)
 
 ## Get started with the CLI
 
