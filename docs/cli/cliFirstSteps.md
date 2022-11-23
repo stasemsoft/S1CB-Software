@@ -84,3 +84,6 @@ and you can also combine parameters:
 ls -al
 ``` 
 
+## Optional: Some references 
+
+- [Getting started with Linux and Bash](https://learn.microsoft.com/en-us/windows/wsl/tutorials/linux)
