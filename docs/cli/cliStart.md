@@ -14,4 +14,4 @@
 
 ## Linux and other Unixes... 
 
-Well, you probably know how to start an app on your machine: use it to start something called `bash` or `terminal (emulator)`. 
+- Well, you probably know how to start an app on your machine: use it to start something called `bash` or `terminal (emulator)`. 
