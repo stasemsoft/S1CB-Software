@@ -3,11 +3,10 @@
 
 ## Introduction
 
-- [Why use the CLI?](cli/cliWhy.md)
-
 ## Get started with the CLI
 
-- [First Steps with the CLI](cli/cliFirstSteps.md)
+- [Why use the CLI?](cli/cliWhy)
+- [First Steps with the CLI](cli/cliFirstSteps)
 
 
 ## Get started with Python using the CLI
