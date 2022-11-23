@@ -10,15 +10,14 @@ This is a collection of info pages about 'doing stuff' using the command line.
 - [First Steps with the CLI](cli)
 
 
-## Get started with Python using the CLI
+## Get started with Python 
 
-- [Install Python](python/pythonInstall)
-- [First steps in Python](python/pythonGetStarted)
+- [First steps in Python](python)
 
 
 ## Get started with Git 
 
-- [First steps with Git](git/gitGetStarted)
+- [First steps with Git](git)
 
 
 ## Some background info about this material
