@@ -44,7 +44,7 @@ once you type the first characters of the dir name the CLI will often be able to
 
 You may want to know where we are now: remember `pwd`? 
 
-## Creating a file 
+## Creating and Editing a file 
 
 ```
 touch someSillyFilename.py
