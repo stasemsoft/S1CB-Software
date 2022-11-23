@@ -1,4 +1,4 @@
-# What do we mean with 'CLI'? 
+# What do we mean by 'CLI'? 
 
 With CLI or Command Line Interface we mean 'some window in which we can interact with our machine'. Sometimes we talk about `Console`, sometimes about `Terminal` or `Terminal emulator`, about `Bash` or `Shell`. 
 
