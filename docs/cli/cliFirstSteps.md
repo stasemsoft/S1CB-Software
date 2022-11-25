@@ -44,6 +44,18 @@ once you type the first characters of the dir name the CLI will often be able to
 
 You may want to know where we are now: remember `pwd`? 
 
+To go to  your Home dir (connected to the account you are logged in with):
+```
+cd ~
+``` 
+
+To change the dir to a directory one step higher in the dir structure: 
+
+```
+cd ..
+``` 
+
+
 ## Creating and Editing a file 
 
 ```
