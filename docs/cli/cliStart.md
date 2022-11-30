@@ -1,17 +1,19 @@
-# How to start a CLI? 
+# Which CLI to choose
 
-## MS-windows 
+The following page describes which CLI to choose per operating system.
 
-- If you have Git installed you have `Git Bash` in your startup menu: use it. 
+## Windows
 
-- If you have installed the Windows Subsystem for Linux you probably already know how to get inside a terminal or CLI. 
+On Windows, it is best to choose either PowerShell or Git Bash. See [What is a CLI](./cliWhat) for more information. Use WSL only if you are experienced with it.
 
-[https://learn.microsoft.com/en-us/windows/wsl/setup/environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
+- For PowerShell, open it from the startup menu.
+- For Git Bash, after installing [Git for Windows](https://gitforwindows.org/), open it from the startup menu.
+- For a Bash shell in WSL, If you have installed the [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/setup/environment), open your installed Linux operating system.
 
 ## MacOS
 
-- Command + Space keys gives you Spotlight, in which you type 'terminal', press enter, and Voila: a CLI appears. 
+- Command + Space keys gives you [Spotlight](https://support.apple.com/guide/mac-help/mchlp1008/mac), type 'terminal' and press enter.
 
-## Linux and other Unixes... 
+## Linux and other Unixes
 
-- Well, you probably know how to start an app on your machine: use it to start something called `bash` or `terminal (emulator)`. 
+- Opening a terminal on a Linux machine depends on the operating system. Consult your operating system on how to open a CLI.
