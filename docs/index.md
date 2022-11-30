@@ -3,21 +3,13 @@
 
 ## Introduction
 
-- This is a collection of info pages about 'doing stuff' using the command line. 
+- This is a collection of info pages about the command line and tools that can be used with it. 
 
-## Get started with the CLI
+## Contents
 
-- [First Steps with the CLI](cli)
-
-
-## Get started with Python 
-
-- [First steps in Python](python)
-
-
-## Get started with Git 
-
-- [First steps with Git](git)
+- [Getting started with the command line](cli)
+- [Getting started with Python](python)
+- [Getting started with Git](git)
 
 
 ## Some background info about this material
