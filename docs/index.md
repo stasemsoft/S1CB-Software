@@ -5,7 +5,7 @@
 
 - This is a collection of info pages about the command line and tools that can be used with it. 
 
-## Content
+## Contents
 
 - [Getting started with the command line](cli)
 - [Getting started with Python](python)
