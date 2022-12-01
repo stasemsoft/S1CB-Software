@@ -3,7 +3,7 @@
 You will be learning the basics of programming with
 [Python](https://www.python.org/).
 
-You will need the following to get started:
+We will describe the following steps to get started:
 
 1. Install Python
 2. Install Visual Studio Code
