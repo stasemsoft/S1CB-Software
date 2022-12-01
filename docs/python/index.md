@@ -22,7 +22,7 @@ The following page shows you how to install a [Python package](https://realpytho
 You will need this package during the first 9 weeks of the start semester.
 
 You should have Python already installed.
-Furthermomre `miniconda` or `anaconda` are not required. Feel free to uninstall these applications if you don't know what these do.
+Furthermore `miniconda` or `anaconda` are not required. Feel free to uninstall these applications if you don't know what these do.
 
 ### Steps
 
