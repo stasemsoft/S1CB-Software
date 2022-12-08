@@ -58,7 +58,7 @@ A lot of commands have endless variations if we add `parameters`, like `-l`, you
 ls -l
 ```
 
-or `-a` to also show hidden items:
+or `-a` (All) to also show hidden items:
 
 ```bash
 ls -a
