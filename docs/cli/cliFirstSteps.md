@@ -96,6 +96,9 @@ Sometimes it is convenient to go back to the home directory. This the directory 
 cd ~
 ```
 
+(there is a `space` after `cd`)
+
+
 ### Go up a directory
 
 If you are currently in `/Users/frens` and you want to go *up* to `/Users`, use `..`:
