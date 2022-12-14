@@ -14,8 +14,16 @@ FHICT has its own git-server for students which you can find via StudentSquare o
 
 ## git basic concepts
 
-First some explanation of some concepts we will use later on. In the next
-chapter we will go hands on. 
+When reading the story below you can use this as a cheat sheet: 
+
++ clone:             make local copy of the repository. 
++ checkout:          apppoint one version to your current 'working directory'
++ commit:            put changes that were made in the working dir into the local repos. 
++ push:              the new commits that were made local will be sent to the
+  server repo also. 
++ pull:             Take all new changes that are on the server (typically
+  changes made by other developers) and add to your local repository 
+
 
 The first concept we have to grasp is that of a `repository`: you could see a
 repository like a datastore, where files can be stored in directories. 
