@@ -14,7 +14,11 @@ FHICT has its own git-server for students which you can find via StudentSquare o
 
 ## git basic concepts
 
-First a little explanation of some concepts we will use later on: 
+First some explanation of some concepts we will use later on. In the next
+chapter we will go hands on. 
+
+The first concept we have to grasp is that of a `repository`: you could see a
+repository like a datastore, where files can be stored in directories. 
 
 Suppose there is a `repository` on a `git server` containing a project you are going to work on. To start working on it you first `clone` the project: this means `git` will create a local copy of the repository, including the history of all files in the project. The last version of the files will be appointed as `working dir`. You can edit your files locally in this working dir the way you normally do: can be done with any editor, or using an IDE (Integrated Development Environment). 
 
@@ -43,8 +47,8 @@ all previous versions of it are stored. We will now create a repository at
 the so-called *git-lab* environment at FHICT
 (only available for FHICT-students;
 An alternative would be creating a repository at *GitHub.com*,
-which is very similar)
-Use a browser to go to
+which is very similar, but then the whole world can potentially see what you are doing)
+Use a browser to go 
 [https://git.fhict.nl](https://git.fhict.nl)
 and create a git repository.
 Copy the https-url to your clipboard, we need it in a few moments.
@@ -72,18 +76,14 @@ You can choose between several *tools* to do the `pulling`
 and `pushing`,
 some created to be easy to use and some more advanced.
 Here the *command line* is used: the advantages being that **all**
-`git`-functionality is available from the command line.
-The syntax shown here is that of a Unix-command line (terminal or bash),
-which is the same for every Unix, Linux or Mac user.
-If you use have MS-Windows you could install *cygwin*
-or adjust the commands a little.
+`git`-functionality is available from the command line or CLI. 
+[Sarters-info on the CLI](../cli)
 
-Start a *terminal* or *bash* shell.
-Go to the `directory` (*folder*) where you want you workspace to be.
-How?
-Suppose you want to create a directory (`mkdir` means *make dir*)
-*myProject* in your *Documents* `directory`
-you type the commands:
+So start a `terminal` or `bash` shell.
+Go to the `directory` where you want your workspace to be.
+In the starters info you find explained how to create a directory with `mkdir`, change your working dir with `cd`.  
+
+So, to create dir 'myProject' in an already existing dir 'Documents' you could type the commands:
 
 ```
 cd Documents
@@ -91,33 +91,37 @@ mkdir myProject
 cd myProject
 ```
 
-`cd` is short for *Change Dir*.
 Most of the time you don't have to type whole names like *Documents*:
 just type *Doc* and
 press the *tab* key and probably the *shell* will complete the name.
+
 ![](figures/gitbash1.png "bash")
-In the `terminal` *clone* the git-repository from the server
+
+In the CLI 'clone' the git-repository from the server
 to your local directory by typing:
 
 ```
 git clone <pasteYourGitUrlHere>
 ```
-After that (you will be asked for your *username*/*password*)
-you now have a local copy (*clone*) of the entire history of this repository
-(for a just created project this is still empty of course).
-To go inside the local *repository-directory*,
-which after a *clone* contains the *latest* version of the files,
+
+After that (you will be asked for your 'username'/'password')
+you now have a local copy ('clone') of the entire history of this repository
+(for a just created project this is still empty).
+To go inside the local 'repository-directory',
+which after a 'clone' contains the 'latest' version of the files,
 use
+
 ```
 cd <dirname>
 ```
+
 Typing `git status` tells you that (at this moment)
 there’s nothing to commit (which means you don't have made local changes
 to the repository).
 
-These are only the basics of *git*.
+These are only the basics of 'git'.
 Most students use it to `commit` and `push` their
-changes right from their `IDE`. Most *IDEs* and *editors* nowadays
+changes right from their `IDE`. Most 'IDEs' and 'editors' nowadays
 have built-in `git`-functionality.
 
 
