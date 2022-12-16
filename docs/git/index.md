@@ -133,17 +133,81 @@ tells you that (at this moment)
 there’s nothing to commit (which means you don't have made local changes
 to the repository).
 
-After this you can start editing your files in your fancy-editor-of-choice. 
-For this info-page that means we'll have an intermission until you have change
+After this you can start editing your files in your fancy-editor-of-choice (IDE). 
+For this info-page that means we'll have an intermission until you have changes
 that you want to commit to git. 
 
 [Intermission](https://www.youtube.com/watch?v=O0wOD9TWynM)
 
-As soon as you 
-These are only the basics of 'git'.
-Most students use it to `commit` and `push` their
-changes right from their `IDE`. Most 'IDEs' and 'editors' nowadays
-have built-in `git`-functionality.
+We now assume you have some changes you want to commit (locally) and then push to the server. 
+Most often you can do that from your IDE: and that is a valid option! On this
+page we will continu describing how to do it from the CLI. 
+
+```bash
+git status 
+```
+
+Before committing we have to `stage` the changes (telling git what has to be
+committed): 
+
+```bash
+git add * 
+```
+
+or (to explicitly `stage` a specific file: 
+
+```bash
+git add theFilename
+```
+
+If you want to see what will be committed you can of course always: 
+
+```bash
+git status 
+```
+
+Ready to commit?
+
+```bash
+git commit -m "adding some comment"
+```
+
+The '-m' tells git that the string after it is the description of what is in the
+commit: add some comment there that describes your changes. You could just say
+`git commit`: git will then start your favorite editor to let you edit the
+commment. In general it's easier to add it right away? 
+
+```bash
+git status 
+```
+
+In the status info you see that you are 1 commit ahead of the server. This means
+that you have 1 commit locally (in your local copy of the repository) that still
+has to be `push`ed to the git server: 
+
+```bash
+git push
+```
+
+If noone pushed changes to the server than your commit will succesfully be
+pushed to the server, which we can check with (again) `git status`. If someone
+*did* push changes to the server then git will (aks and) try to `merge` those changes into your local repos, after which you can push your changes together with the merged ones. 
+
+## Next development session
+
+When you start working on new changes it is wise to start with a 
+
+```bash
+git pull
+```
+
+so you get all the changes pushed to the server in the meanwhile. 
+
+
+Remark: The way-of-work described on this page is a simpel one: a lot of developers
+use some kind of so-called branch-based workflow, but that's out of our scope
+for now.   
+
 
 
 ![](figures/gitgud.png "git gud")
