@@ -109,7 +109,7 @@ In the CLI 'clone' the git-repository from the server
 to your local directory by typing:
 
 ```
-git clone <pasteYourGitUrlHere>
+git clone pasteYourGitUrlHere
 ```
 
 After that (you will be asked for your 'username'/'password')
@@ -120,10 +120,16 @@ which after a 'clone' contains the 'latest' version of the files,
 use
 
 ```
-cd <dirname>
+cd dirname
 ```
 
-Typing `git status` tells you that (at this moment)
+Want to see the  status of git? 
+
+```bash
+git status
+```
+
+which tells you that (at this moment)
 there’s nothing to commit (which means you don't have made local changes
 to the repository).
 
