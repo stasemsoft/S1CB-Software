@@ -123,13 +123,7 @@ use
 cd dirname
 ```
 
-Want to see the  status of git? 
-
-```bash
-git status
-```
-
-which tells you that (at this moment)
+Typing `git status` tells you that (at this moment)
 there’s nothing to commit (which means you don't have made local changes
 to the repository).
 
