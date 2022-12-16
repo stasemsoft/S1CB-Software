@@ -109,7 +109,7 @@ In the CLI 'clone' the git-repository from the server
 to your local directory by typing:
 
 ```
-git clone pasteYourGitUrlHere
+git clone <pasteYourGitUrlHere>
 ```
 
 After that (you will be asked for your 'username'/'password')
@@ -120,13 +120,26 @@ which after a 'clone' contains the 'latest' version of the files,
 use
 
 ```
-cd dirname
+cd <dirname>
 ```
 
-Typing `git status` tells you that (at this moment)
+Do you want to know what the status of git is? 
+
+```bash
+git status
+```
+
+tells you that (at this moment)
 there’s nothing to commit (which means you don't have made local changes
 to the repository).
 
+After this you can start editing your files in your fancy-editor-of-choice. 
+For this info-page that means we'll have an intermission until you have change
+that you want to commit to git. 
+
+[Intermission](https://www.youtube.com/watch?v=O0wOD9TWynM)
+
+As soon as you 
 These are only the basics of 'git'.
 Most students use it to `commit` and `push` their
 changes right from their `IDE`. Most 'IDEs' and 'editors' nowadays
