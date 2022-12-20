@@ -32,24 +32,24 @@ repository like a datastore, where files can be stored in directories.
 
 Suppose there is a `repository` on a `git server` containing a project you are going to work on. To start working on it you first `clone` the project: this means `git` will create a local copy of the repository, including the history of all files in the project. The last version of the files will be appointed as `working dir`. You can edit your files locally in this working dir the way you normally do: can be done with any editor, or using an IDE (Integrated Development Environment). 
 
-![](figures/gitpictures-1%20-%Clone.jpg "git clone")
+![](figures/gitpictures-1%20-%20Clone.jpg "git clone")
 
 Under the hood, the GIT clone command will (probably) already do a checkout. This means that working copies of the files are being loaded from the dataase and stored on disc so you can edit them. If this is not yet the case.
 
-![](figures/gitpictures-2%20-%Checkout.jpg "git checkout")
+![](figures/gitpictures-2%20-%20Checkout.jpg "git checkout")
 
 When you made some changes to your local working dir you may want to `commit` those changes to the local history. Look at the following 2 diagrams to see what happens:
 
-![](figures/gitpictures-3%20-%Change.jpg "git change")
-![](figures/gitpictures-4%20-%Commit.jpg "git commit")
+![](figures/gitpictures-3%20-%20Change.jpg "git change")
+![](figures/gitpictures-4%20-%20Commit.jpg "git commit")
 
 After committing you can `push` these new versions to the git server. 
 
-![](figures/gitpictures-5%20-%Push.jpg "git push")
+![](figures/gitpictures-5%20-%20Push.jpg "git push")
 
 When changes are pushed to the server other developers can `pull` your changes to their local versions. 
 
-![](figures/gitpictures-6b%20-%Pull.jpg "git pull")
+![](figures/gitpictures-6b%20-%20Pull.jpg "git pull")
 
 Next time you don't need to create a new clone, but before creating new changes yourself it is wise to `pull` possible changes made by other people (and pushed by them to the server) from the git server to your local repository and point your working working dir to this version. After that you can (again) develop until you have changes that commit and push to the server again. 
 
