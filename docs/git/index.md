@@ -28,6 +28,8 @@ When reading the story below you can use this as a cheat sheet:
 The first concept we have to grasp is that of a `repository`: you could see a
 repository like a datastore, where files can be stored in directories. 
 
+![](figures/gitpictures-0 - Start.jpg "git start")
+
 Suppose there is a `repository` on a `git server` containing a project you are going to work on. To start working on it you first `clone` the project: this means `git` will create a local copy of the repository, including the history of all files in the project. The last version of the files will be appointed as `working dir`. You can edit your files locally in this working dir the way you normally do: can be done with any editor, or using an IDE (Integrated Development Environment). 
 
 When you made some changes to your local working dir you may want to `commit` those changes to the local history. After that you can `push` these new versions to the git server. When changes are pushed to the server other developers can `pull` your changes to their local versions. 
