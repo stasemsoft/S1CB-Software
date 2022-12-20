@@ -34,7 +34,7 @@ Suppose there is a `repository` on a `git server` containing a project you are g
 
 ![](figures/gitpictures-1%20-%20Clone.jpg "git clone")
 
-Under the hood, the GIT clone command will (probably) already do a checkout. This means that working copies of the files are being loaded from the dataase and stored on disc so you can edit them. If this is not yet the case.
+Under the hood, the GIT clone command will (probably) already do a checkout. This means that working copies of the files are being loaded from the dataase and stored on disc so they are ready to be edited. If this is not yet the case, you can manually perform the checkout.
 
 ![](figures/gitpictures-2%20-%20Checkout.jpg "git checkout")
 
@@ -234,6 +234,7 @@ for now.
 
 ## Optional: some resources
 
++ [Downloadable Git Commic](figures/Git%20Commic.pdf)
 + [githowto.com](https://githowto.com/)
 + [gitlab university user_training](https://docs.gitlab.com/ee/university/training/user_training.html)
 + [Git book (very thorough!)](https://git-scm.com/book/en/v2)
