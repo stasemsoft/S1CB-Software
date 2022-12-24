@@ -28,9 +28,28 @@ When reading the story below you can use this as a cheat sheet:
 The first concept we have to grasp is that of a `repository`: you could see a
 repository like a datastore, where files can be stored in directories. 
 
+![](figures/gitpictures-0%20-%20Start.jpg "git start")
+
 Suppose there is a `repository` on a `git server` containing a project you are going to work on. To start working on it you first `clone` the project: this means `git` will create a local copy of the repository, including the history of all files in the project. The last version of the files will be appointed as `working dir`. You can edit your files locally in this working dir the way you normally do: can be done with any editor, or using an IDE (Integrated Development Environment). 
 
-When you made some changes to your local working dir you may want to `commit` those changes to the local history. After that you can `push` these new versions to the git server. When changes are pushed to the server other developers can `pull` your changes to their local versions. 
+![](figures/gitpictures-1%20-%20Clone.jpg "git clone")
+
+Under the hood, the GIT clone command will (probably) already do a checkout. This means that working copies of the files are being loaded from the dataase and stored on disc so they are ready to be edited. If this is not yet the case, you can manually perform the checkout.
+
+![](figures/gitpictures-2%20-%20Checkout.jpg "git checkout")
+
+When you made some changes to your local working dir you may want to `commit` those changes to the local history. Look at the following 2 diagrams to see what happens:
+
+![](figures/gitpictures-3%20-%20Change.jpg "git change")
+![](figures/gitpictures-4%20-%20Commit.jpg "git commit")
+
+After committing you can `push` these new versions to the git server. 
+
+![](figures/gitpictures-5%20-%20Push.jpg "git push")
+
+When changes are pushed to the server other developers can `pull` your changes to their local versions. 
+
+![](figures/gitpictures-6b%20-%20Pull.jpg "git pull")
 
 Next time you don't need to create a new clone, but before creating new changes yourself it is wise to `pull` possible changes made by other people (and pushed by them to the server) from the git server to your local repository and point your working working dir to this version. After that you can (again) develop until you have changes that commit and push to the server again. 
 
@@ -215,6 +234,7 @@ for now.
 
 ## Optional: some resources
 
++ [Downloadable Git Commic](figures/Git%20Commic.pdf)
 + [githowto.com](https://githowto.com/)
 + [gitlab university user_training](https://docs.gitlab.com/ee/university/training/user_training.html)
 + [Git book (very thorough!)](https://git-scm.com/book/en/v2)
