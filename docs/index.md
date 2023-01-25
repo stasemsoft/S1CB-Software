@@ -11,6 +11,9 @@
 - [Getting started with Python](python)
 - [Getting started with Git](git)
 
+## Problem Solving
+
+[problem solving](solving/index)
 
 ## Some background info about this material
 
