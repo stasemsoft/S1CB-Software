@@ -2,7 +2,7 @@
 
 This page is to help you get up and running again when stuck with one of the python/flask/arduino-tasks in semester 1 course based.
 
-## Strategy to tackle a problem
+## General Strategy to tackle a problem
 
 You *will* get stuck now and then, so it makes sense to have a more or less structured way to cope with that. So try to be aware of what you do when solving a problem. It will help you get better in time. 
 
