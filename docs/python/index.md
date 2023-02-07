@@ -32,7 +32,7 @@ Furthermore `miniconda` or `anaconda` are not required. Feel free to uninstall t
 ```bash
 python -m pip install fhict-cb-01  
 ```
-on MacOS or *Nix or 
+on MacOS and *Nix or 
 ```bash
 py -m pip install  fhict-cb-01 
 ```
