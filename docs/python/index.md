@@ -30,5 +30,10 @@ Furthermore `miniconda` or `anaconda` are not required. Feel free to uninstall t
 2. Run the following command:
 
 ```bash
-python -m pip install fhict-cb-01
+python -m pip install fhict-cb-01  
 ```
+on MacOS or *Nix or 
+```bash
+py -m pip install  fhict-cb-01 
+```
+on some Windows Python installs.
