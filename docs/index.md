@@ -1,6 +1,5 @@
 # CLI: Command Line Interface
 
-
 ## Introduction
 
 - This is a collection of info pages about the command line and tools that can be used with it. 
@@ -13,7 +12,7 @@
 
 ## Problem Solving
 
-[problem solving](solving/index)
+- [problem solving](solving/index)
 
 ## Some background info about this material
 
