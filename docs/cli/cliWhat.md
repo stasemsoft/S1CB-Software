@@ -14,3 +14,4 @@ The big advantage of a CLI is that regardless which one you choose, commands acr
 
 - [learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 - [Windows Subsystem for Linux Documentation](https://learn.microsoft.com/en-us/windows/wsl/)
+- [https://www.freecodecamp.org/news/command-line-commands-cli-tutorial/](https://www.freecodecamp.org/news/command-line-commands-cli-tutorial/)
