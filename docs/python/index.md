@@ -37,3 +37,9 @@ on MacOS and *Nix or
 py -m pip install  fhict-cb-01 
 ```
 on some Windows Python installs.
+
+## Troubleshooting
+If you get an error as follows : `ModuleNotFoundError: No module named 'fhict_cb_01'"`
+Make sure that you installed the FHICT Python package in the same environment that you are trying to run it in. In Visual Studio Code check the bottom of the window and check the interpreter. You may have multiple python environments on your computer and you might have installed the package in another environment. Also make sure that install the pip package as above did not give an error message.
+![Screenshot-image](https://user-images.githubusercontent.com/91896373/223751545-68d37197-30e5-4797-a42c-7a55e24e733a.png)
+
